@@ -1,0 +1,13 @@
+url,harapan,aktual,prob_phishing,sesuai,keterangan,catatan_aplikasi
+https://www.google.com,AMAN,AMAN,0.013,✔,situs populer,-
+https://id.wikipedia.org/wiki/Phishing,AMAN,AMAN,0.0,✔,halaman ensiklopedia,-
+https://github.com/scikit-learn/scikit-learn,AMAN,PHISHING,0.532,✘,repositori publik,"Alamat ini berada di layanan umum (github.com) yang dipakai banyak orang, termasuk penipu. Hasil model dapat keliru; periksa siapa pengirim tautan dan isi halamannya sebelum memasukkan data."
+https://www.kompas.com/,AMAN,MENCURIGAKAN,0.227,✘,situs berita,-
+https://www.tokopedia.com/,AMAN,AMAN,0.038,✔,marketplace,-
+http://192.168.10.5/secure-login/verify-account.php?user=1,PHISHING,PHISHING,1.0,✔,IP + kata sensitif + .php,-
+http://paypal.com.account-verify.tk/signin,PHISHING,PHISHING,1.0,✔,meniru merek + TLD berisiko,-
+http://bca-klikbca.verifikasi-akun.xyz/login.php,PHISHING,PHISHING,1.0,✔,meniru bank Indonesia,-
+https://secure-update-netflix-billing.web.app/login,PHISHING,PHISHING,1.0,✔,ber-https tetapi meniru merek,"Alamat ini berada di layanan umum (web.app) yang dipakai banyak orang, termasuk penipu. Hasil model dapat keliru; periksa siapa pengirim tautan dan isi halamannya sebelum memasukkan data."
+http://login.microsoftonline.com.secure-docs.cn/owa/?redirect=http://e,PHISHING,PHISHING,1.0,✔,subdomain menyesatkan + http tertanam,-
+http://secure.bank-update.info/@confirm/index.html,PHISHING,PHISHING,1.0,✔,simbol @ + kata sensitif,-
+https://docs.google.com/forms/d/e/1FAIpQLSexample/viewform,AMAN,PHISHING,0.997,✘,Google Forms sah (kasus sulit: platform yang sering disalahgunakan),"Alamat ini berada di layanan umum (docs.google.com) yang dipakai banyak orang, termasuk penipu. Hasil model dapat keliru; periksa siapa pengirim tautan dan isi halamannya sebelum memasukkan data."

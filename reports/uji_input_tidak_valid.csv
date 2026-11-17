@@ -1,0 +1,14 @@
+input,keterangan,ditolak,pesan
+'',kosong,✔,URL masih kosong. Tempel tautan yang ingin diperiksa.
+'   ',hanya spasi,✔,URL masih kosong. Tempel tautan yang ingin diperiksa.
+'halo dunia',bukan URL (ada spasi),✔,URL tidak boleh mengandung spasi. Pastikan hanya satu tautan yang ditempel.
+'abc',tanpa titik/domain,✔,"Domain tidak lengkap (tidak ada titik, mis. 'contoh.com')."
+'javascript:alert(1)',skema berbahaya,✔,Hanya tautan web (http/https) yang dapat diperiksa.
+'file:///etc/passwd',skema file,✔,Hanya tautan web (http/https) yang dapat diperiksa.
+'ftp2://x.com',skema tidak didukung,✔,Skema 'ftp2://' tidak didukung. Gunakan tautan http atau https.
+'http://',tanpa host,✔,Bagian alamat situs (domain) tidak valid.
+'http://exa mple.com',spasi di domain,✔,URL tidak boleh mengandung spasi. Pastikan hanya satu tautan yang ditempel.
+'http://999.999.999.999/x',IP tidak valid,✔,Alamat IP tidak valid.
+'http://a..com',titik ganda,✔,Format domain tidak valid.
+'https://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,terlalu panjang,✔,URL terlalu panjang (2112 karakter; batas 2048).
+None,None,✔,Input harus berupa teks.
