@@ -1,4 +1,4 @@
-# Cek Tautan — Deteksi URL Phishing (UAS Keamanan Data)
+# Phishing Detection With TF-IDF N-Gram Character And Logistic Regression Algorithm Without Data Leak
 
 Aplikasi berbasis machine learning yang memeriksa apakah sebuah URL mirip pola phishing, lengkap dengan alasan dan saran tindakan.
 
@@ -34,6 +34,3 @@ streamlit run app.py
 - Dataset 1: Phishing URL Dataset (Mendeley Data, `vfszbj9b36`), berkas `URL_dataset.csv`: 450.176 URL berlabel `legitimate`/`phishing`.
 - Dataset 2: `Phishing_URLs.csv`: 54.807 URL phishing (tanpa legitimate).
 - Rujukan metode: Shahrivari et al., *Phishing Detection Using Machine Learning Techniques*, arXiv:2009.11116.
-
-## Penggunaan bantuan AI
-Kerangka kode dan notebook disusun dengan bantuan Claude (Anthropic). Cantumkan juga di laporan, dan pastikan setiap anggota memahami tiap bagian kode.
